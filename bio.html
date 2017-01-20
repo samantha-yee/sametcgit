@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+	
+	<head>
+		<title>Assignment 1 - Bio</title>
+		
+		<style>
+		
+			#pic {
+				background-image: url("DoubleExposure.jpg");
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			body {
+				background: linear-gradient(to right, #9fc, #24f);
+				background: cover;
+			}
+		</style>
+	</head>
+
+	
+	<body>	
+			<div id="box">
+				<Strong><p>24 &#124; VANCOUVER &#124; GRAPHIC DESIGNER</Strong>
+				<br/>
+				<br/>
+				Sam loves brussel sprouts and cauliflower, owning a variety of jackets, her cat, singing in the car, and owning plants.  She is currently a D3 student at BCIT and struggles most with web developement.  If she could pick any profession, she would be an astrotainer. (An entertainer in space).
+				<br/>
+				<br/>
+				Sam hates goat cheese/when people call it 'goat's cheese', sweaty hands and feet, the game 'Cards Against Humanity', and when she cant figure out why her plants always die despite her efforts to keep them alive. 
+				</p>
+			<div id="pic">
+			</div>
+
+		
+	</body>
+	
+	<script>
+		
+		//#pic
+		document.getElementById("pic").style.height = "225px";
+		document.getElementById("pic").style.width = "150px";
+		document.getElementById("pic").style.position = "absolute";
+		document.getElementById("pic").style.top = "-45px";
+		document.getElementById("pic").style.left = "25px";
+			document.getElementById("pic").addEventListener("click", function(){
+				document.getElementById("box").style.backgroundColor = "yellow";
+			});
+		
+	
+		
+		//#box
+		document.getElementById("box").style.height = "250px";
+		document.getElementById("box").style.width = "700px";
+		document.getElementById("box").style.position = "absolute";
+		document.getElementById("box").style.backgroundColor = "pink";
+		document.getElementById("box").style.top = "0";
+		document.getElementById("box").style.bottom = "0";
+		document.getElementById("box").style.left = "0";
+		document.getElementById("box").style.right = "0";
+		document.getElementById("box").style.margin = "auto";
+		document.getElementById("box").style.boxShadow = "5px 5px 1.2em black";
+		document.getElementById("box").style.paddingLeft = "200px";
+		document.getElementById("box").style.paddingRight = "25px";
+		document.getElementById("box").style.paddingTop = "50px";
+		document.getElementById("box").style.fontFamily = "helvetica";
+		document.getElementById("box").style.fontWeight = "100";
+		document.getElementById("box").style.fontSize = "14px";
+
+
+	</script>
+
+
+</html>
