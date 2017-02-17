@@ -1,2 +1,2 @@
 <?php
-include("bio.html"); ?>
+include("landing.html"); ?>
