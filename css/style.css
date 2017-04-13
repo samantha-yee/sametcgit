@@ -124,8 +124,16 @@ a:visited {
 
 .hidden {
 	/*visibility: hidden;*/
-
 }
+
+
+/* for mobile */
+@media only screen and (max-width: 414px) {
+	body {
+		background-color: black;
+	}
+}
+
 
 
 
