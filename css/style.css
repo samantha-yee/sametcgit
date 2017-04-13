@@ -25,14 +25,14 @@ body {
 header {
 	width: 100vw;
 	height: 100px;
-	background-color: white;
+	background-color: rgba(255,255,255,0.8);
+
 	top:0;
 	left: 0;
 	position: fixed;
 	z-index: 0;
 }
 nav {
-
 	width: 100vw;
 	position: absolute;
 	font-family: "rift";
@@ -127,12 +127,68 @@ a:visited {
 }
 
 
-/* for mobile */
-@media only screen and (max-width: 414px) {
+/* responsive */
+@media only screen and (max-width: 736px) {
+	body {
+		background-color: white;
+		overflow: hidden;
+	}
+
+	#homeme, #infome, #contactme {
+		width: 70vw;
+		min-height: 250px;
+
+		position: absolute;
+		transition: 1s ease-in-out;
+		margin: auto;
+
+}
+
+	.showing {
+		position: absolute;
+		transform: translateX(-90vw);
+		transition: 1s ease-in-out;
+		left: -5vw;
+}
+
+.pages {
+		bottom: 0;
+}
+
+@media only screen and (min-device-width: 414px) (max-device-width: 736px) {
 	body {
 		background-color: black;
+		overflow: hidden;
 	}
+
+	#homeme, #infome, #contactme {
+		width: 70vw;
+		min-height: 250px;
+
+		position: absolute;
+		transition: 1s ease-in-out;
+		margin: auto;
+
 }
+
+	.showing {
+		position: absolute;
+		transform: translateX(-90vw);
+		transition: 1s ease-in-out;
+		left: -5vw;
+}
+
+.pages {
+		bottom: 0;
+
+
+		/*FOR RESPONSIVE IPHONE MUST RESIZE FONT SIZE AND POSITION OF DIVS TO BOTTOM FOR IPHONES ONLY*/
+}
+
+
+
+
+
 
 
 
