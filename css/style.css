@@ -1,4 +1,9 @@
 
+@font-face {
+	font-family: headerFont;
+	src: url(/Fonts/aliens and cows_trial.ttf);
+}
+
 .cls-1 {	
 	right: 0;
  	stroke-dasharray: 1000;
@@ -35,7 +40,7 @@ header {
 nav {
 	width: 100vw;
 	position: absolute;
-	font-family: "rift";
+	font-family: headerFont;
 	font-size: 10pt;
 }
 
@@ -154,25 +159,6 @@ a:visited {
 		bottom: 0;
 }
 
-/* iphone 6+ */
-@media only screen and (max-width: 414px) {
-	body {
-		background-color: blue;
-		overflow: hidden;
-	}
-
-	.pages {
-		width: 100vw;
-		font-size: 24pt;
-}	
-
-	#homeme, #infome, #contactme {
-		width: 90vw;
-		position: absolute;
-		transition: 1s ease-in-out;
-		margin: auto;
-
-}
 
 
 
