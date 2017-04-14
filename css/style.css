@@ -137,7 +137,6 @@ a:visited {
 	#homeme, #infome, #contactme {
 		width: 70vw;
 		min-height: 250px;
-
 		position: absolute;
 		transition: 1s ease-in-out;
 		margin: auto;
@@ -155,35 +154,31 @@ a:visited {
 		bottom: 0;
 }
 
-@media only screen and (min-device-width: 414px) (max-device-width: 736px) {
+/* iphone 6+ */
+@media only screen and (max-width: 414px) {
 	body {
-		background-color: black;
+		background-color: blue;
 		overflow: hidden;
 	}
 
-	#homeme, #infome, #contactme {
-		width: 70vw;
-		min-height: 250px;
+	.pages {
+		width: 100vw;
+		font-size: 24pt;
+}	
 
+	#homeme, #infome, #contactme {
+		width: 90vw;
 		position: absolute;
 		transition: 1s ease-in-out;
 		margin: auto;
 
 }
 
-	.showing {
-		position: absolute;
-		transform: translateX(-90vw);
-		transition: 1s ease-in-out;
-		left: -5vw;
-}
 
-.pages {
-		bottom: 0;
+
 
 
 		/*FOR RESPONSIVE IPHONE MUST RESIZE FONT SIZE AND POSITION OF DIVS TO BOTTOM FOR IPHONES ONLY*/
-}
 
 
 
