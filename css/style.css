@@ -1,12 +1,12 @@
 
 @font-face {
 	font-family: headerFont;
-	src: url(../Fonts/sametcfonts/Bangers/Bangers-Regular.ttf);
+	src: url(../Fonts/Aliens.ttf);
 }
 
 @font-face {
 	font-family: bodyCopy;
-	src: url(../Fonts/sametcfonts/Oswald/oswald-light.ttf);
+	src: url(../Fonts/Prata/Prata-Regular.ttf);
 }
 
 .cls-1 {	
@@ -46,7 +46,7 @@ nav {
 	width: 100vw;
 	position: absolute;
 	font-family: headerFont;
-	font-size: 24pt;
+	font-size: 30pt;
 }
 
 nav ul li {
