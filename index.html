@@ -2,34 +2,63 @@
 	<head>
 		<title>ETC X GRITZMORE</title>
 		<meta charset='ITF-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=0.5'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<style>
 
 				html,body {
 					overflow: hidden;
+					background-color: #333;
 				}
+				iframe {
+  					-moz-transform: scale(0.70, 0.70); 
+  					-webkit-transform: scale(0.70, 0.70); 
+  					-o-transform: scale(0.70, 0.70);
+  					-ms-transform: scale(0.70, 0.70);
+  					transform: scale(0.70, 0.70);
+}
 
 				iframe {
 					width: 1732px;
 					height: 1056px;
-					display: block;
-					padding-left: 110px;
 					border: none;
 					overflow: hidden;
+					box-shadow: 10px 10px 10px black;
 					position: absolute;
+					left: -230px;
+					top: -140px;
 				}
 
 				iframe::-webkit-scrollbar {
 					display: none;
 				}
+				#frame {
+					width: 900px;
+					height: 580px;
+					top:100px;
+					right: 10px;
+					box-shadow: 10px 10px 10px black;
+					border-radius: 2px;
+					margin: auto;
+					position: fixed;
+					background-color: white;
+					}
+
+					img {
+						margin-top:35px;
+						margin-left: 15px;
+					box-shadow: 10px 10px 10px black;
+					border-radius: 2px;
+
+					}
 
 
 		</style>
 	</head>
 
 	<body>
-
+		<img src='image/cover.jpg' width='475px' height='auto'>
+		<div id='frame'><div>
 		<iframe src='ETC_X_GRITZ-1.xhtml'>Fingers crossed</iframe>
 
 	</body>
