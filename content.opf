@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.0" />
+		<meta name="cover" content="cover.jpg" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>ETC_X_GRITZ</dc:title>
+		<dc:date>2017-11-21T21:41:00Z</dc:date>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2017-11-21T21:41:04Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">landscape</meta>
+		<meta property="rendition:spread">none</meta>
+	</metadata>
+	<manifest>
+		<item id="ETC_X_GRITZ-1" href="ETC_X_GRITZ-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-2" href="ETC_X_GRITZ-2.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-3" href="ETC_X_GRITZ-3.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-4" href="ETC_X_GRITZ-4.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-5" href="ETC_X_GRITZ-5.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-6" href="ETC_X_GRITZ-6.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-7" href="ETC_X_GRITZ-7.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-8" href="ETC_X_GRITZ-8.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-9" href="ETC_X_GRITZ-9.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-10" href="ETC_X_GRITZ-10.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-11" href="ETC_X_GRITZ-11.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-12" href="ETC_X_GRITZ-12.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-13" href="ETC_X_GRITZ-13.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-14" href="ETC_X_GRITZ-14.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-15" href="ETC_X_GRITZ-15.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-16" href="ETC_X_GRITZ-16.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-17" href="ETC_X_GRITZ-17.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="ETC_X_GRITZ-18" href="ETC_X_GRITZ-18.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="Avenir-Light.ttc" href="font/Avenir-Light.ttc" media-type="application/x-font-ttf" />
+		<item id="Avenir-LightOblique.ttc" href="font/Avenir-LightOblique.ttc" media-type="application/x-font-ttf" />
+		<item id="Baskerville-Bold.ttc" href="font/Baskerville-Bold.ttc" media-type="application/x-font-ttf" />
+		<item id="Baskerville-Italic.ttc" href="font/Baskerville-Italic.ttc" media-type="application/x-font-ttf" />
+		<item id="Baskerville-SemiBold.ttc" href="font/Baskerville-SemiBold.ttc" media-type="application/x-font-ttf" />
+		<item id="Baskerville.ttc" href="font/Baskerville.ttc" media-type="application/x-font-ttf" />
+		<item id="Futura-Bold.ttc" href="font/Futura-Bold.ttc" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue-Bold.dfont" href="font/HelveticaNeue-Bold.dfont" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue-BoldItalic.dfont" href="font/HelveticaNeue-BoldItalic.dfont" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue-Italic.dfont" href="font/HelveticaNeue-Italic.dfont" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue-ThinItalic.dfont" href="font/HelveticaNeue-ThinItalic.dfont" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue-UltraLightItalic.dfont" href="font/HelveticaNeue-UltraLightItalic.dfont" media-type="application/x-font-ttf" />
+		<item id="HelveticaNeue.dfont" href="font/HelveticaNeue.dfont" media-type="application/x-font-ttf" />
+		<item id="Palatino-Bold.ttc" href="font/Palatino-Bold.ttc" media-type="application/x-font-ttf" />
+		<item id="Palatino-Roman.ttc" href="font/Palatino-Roman.ttc" media-type="application/x-font-ttf" />
+		<item id="SignaritaZhai.ttf" href="font/SignaritaZhai.ttf" media-type="application/x-font-ttf" />
+		<item id="x0013_13A.jpg" href="image/0013_13A.jpg" media-type="image/jpeg" />
+		<item id="x0014_12A.jpg" href="image/0014_12A.jpg" media-type="image/jpeg" />
+		<item id="x0016_10A.jpg" href="image/0016_10A.jpg" media-type="image/jpeg" />
+		<item id="x0016_10A1.jpg" href="image/0016_10A1.jpg" media-type="image/jpeg" />
+		<item id="x0020_6A.jpg" href="image/0020_6A.jpg" media-type="image/jpeg" />
+		<item id="x0021_5A.jpg" href="image/0021_5A.jpg" media-type="image/jpeg" />
+		<item id="x0023_3A.jpg" href="image/0023_3A.jpg" media-type="image/jpeg" />
+		<item id="x007.jpg" href="image/007.jpg" media-type="image/jpeg" />
+		<item id="x016.jpg" href="image/016.jpg" media-type="image/jpeg" />
+		<item id="x017.jpg" href="image/017.jpg" media-type="image/jpeg" />
+		<item id="x019b.png" href="image/019b.png" media-type="image/png" />
+		<item id="x024.jpg" href="image/024.jpg" media-type="image/jpeg" />
+		<item id="x026.jpg" href="image/026.jpg" media-type="image/jpeg" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x102.png" href="image/102.png" media-type="image/png" />
+		<item id="x103.png" href="image/103.png" media-type="image/png" />
+		<item id="x11.png" href="image/11.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x17.png" href="image/17.png" media-type="image/png" />
+		<item id="x18.png" href="image/18.png" media-type="image/png" />
+		<item id="x19.png" href="image/19.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x2017.png" href="image/2017.png" media-type="image/png" />
+		<item id="x21.png" href="image/21.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x23.png" href="image/23.png" media-type="image/png" />
+		<item id="x26.png" href="image/26.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x36.png" href="image/36.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x50.png" href="image/50.png" media-type="image/png" />
+		<item id="x53.png" href="image/53.png" media-type="image/png" />
+		<item id="x54.png" href="image/54.png" media-type="image/png" />
+		<item id="x55.png" href="image/55.png" media-type="image/png" />
+		<item id="x56.png" href="image/56.png" media-type="image/png" />
+		<item id="x59.png" href="image/59.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x61.png" href="image/61.png" media-type="image/png" />
+		<item id="x65.png" href="image/65.png" media-type="image/png" />
+		<item id="x69.png" href="image/69.png" media-type="image/png" />
+		<item id="x7.png" href="image/7.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x89.png" href="image/89.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="x91.png" href="image/91.png" media-type="image/png" />
+		<item id="x92.png" href="image/92.png" media-type="image/png" />
+		<item id="x93.png" href="image/93.png" media-type="image/png" />
+		<item id="x94.png" href="image/94.png" media-type="image/png" />
+		<item id="x95.png" href="image/95.png" media-type="image/png" />
+		<item id="cover.jpg" href="image/cover.jpg" media-type="image/jpeg" properties="cover-image" />
+		<item id="greenscreen-03.png" href="image/greenscreen-03.png" media-type="image/png" />
+		<item id="Gritzmore-0012.jpg" href="image/Gritzmore-0012.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0022.jpg" href="image/Gritzmore-0022.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0033.jpg" href="image/Gritzmore-0033.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0044.jpg" href="image/Gritzmore-0044.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0069.jpg" href="image/Gritzmore-0069.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0070.jpg" href="image/Gritzmore-0070.jpg" media-type="image/jpeg" />
+		<item id="Gritzmore-0073.jpg" href="image/Gritzmore-0073.jpg" media-type="image/jpeg" />
+		<item id="gritzsocial-02.png" href="image/gritzsocial-02.png" media-type="image/png" />
+		<item id="gritzsocial-03.png" href="image/gritzsocial-03.png" media-type="image/png" />
+		<item id="gritzsocial-04.png" href="image/gritzsocial-04.png" media-type="image/png" />
+		<item id="melissafull-06.png" href="image/melissafull-06.png" media-type="image/png" />
+		<item id="photo25.jpg" href="image/photo25.jpg" media-type="image/jpeg" />
+		<item id="ROTATE-04.png" href="image/ROTATE-04.png" media-type="image/png" />
+		<item id="sam.png" href="image/sam.png" media-type="image/png" />
+		<item id="x-9622.jpg" href="image/x-9622.jpg" media-type="image/jpeg" />
+		<item id="x-9650.jpg" href="image/x-9650.jpg" media-type="image/jpeg" />
+		<item id="x-9668.jpg" href="image/x-9668.jpg" media-type="image/jpeg" />
+		<item id="x-9675.jpg" href="image/x-9675.jpg" media-type="image/jpeg" />
+		<item id="x-9692.jpg" href="image/x-9692.jpg" media-type="image/jpeg" />
+		<item id="x-9717.jpg" href="image/x-9717.jpg" media-type="image/jpeg" />
+		<item id="x-9772.jpg" href="image/x-9772.jpg" media-type="image/jpeg" />
+		<item id="x-9776.jpg" href="image/x-9776.jpg" media-type="image/jpeg" />
+		<item id="x-9780.jpg" href="image/x-9780.jpg" media-type="image/jpeg" />
+		<item id="x-9785.jpg" href="image/x-9785.jpg" media-type="image/jpeg" />
+		<item id="x-9792.png" href="image/x-9792.png" media-type="image/png" />
+		<item id="x-9809.jpg" href="image/x-9809.jpg" media-type="image/jpeg" />
+		<item id="x-9811.jpg" href="image/x-9811.jpg" media-type="image/jpeg" />
+		<item id="idGeneratedScript.js" href="script/idGeneratedScript.js" media-type="text/javascript" />
+		<item id="endflicker_opti.mp4" href="video/endflicker_opti.mp4" media-type="video/mp4" />
+		<item id="gritzvid1_opti.mp4" href="video/gritzvid1_opti.mp4" media-type="video/mp4" />
+		<item id="group1_opti.mp4" href="video/group1_opti.mp4" media-type="video/mp4" />
+		<item id="justinflickerr_opti.mp4" href="video/justinflickerr_opti.mp4" media-type="video/mp4" />
+		<item id="overunder_opti.mp4" href="video/overunder_opti.mp4" media-type="video/mp4" />
+	</manifest>
+	<spine>
+		<itemref idref="ETC_X_GRITZ-1" />
+		<itemref idref="ETC_X_GRITZ-2" />
+		<itemref idref="ETC_X_GRITZ-3" />
+		<itemref idref="ETC_X_GRITZ-4" />
+		<itemref idref="ETC_X_GRITZ-5" />
+		<itemref idref="ETC_X_GRITZ-6" />
+		<itemref idref="ETC_X_GRITZ-7" />
+		<itemref idref="ETC_X_GRITZ-8" />
+		<itemref idref="ETC_X_GRITZ-9" />
+		<itemref idref="ETC_X_GRITZ-10" />
+		<itemref idref="ETC_X_GRITZ-11" />
+		<itemref idref="ETC_X_GRITZ-12" />
+		<itemref idref="ETC_X_GRITZ-13" />
+		<itemref idref="ETC_X_GRITZ-14" />
+		<itemref idref="ETC_X_GRITZ-15" />
+		<itemref idref="ETC_X_GRITZ-16" />
+		<itemref idref="ETC_X_GRITZ-17" />
+		<itemref idref="ETC_X_GRITZ-18" />
+	</spine>
+</package>
