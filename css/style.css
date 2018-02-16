@@ -453,12 +453,12 @@ p {
 
 /* responsive */
 @media only screen and (max-width: 760px) {
-	body {
+/*	body {
 		background-color: white;
 		overflow: hidden;
-	}
+	}*/
 
-	#homeme, #infome, #contactme {
+/*	#homeme, #infome, #contactme {
 		width: 70vw;
 		min-height: 250px;
 		position: absolute;
@@ -467,9 +467,9 @@ p {
 		left: -5px;
 		padding-left: 10vw;
 
-}
+}*/
 
-/*#not-ready {
+#not-ready {
 	position: absolute;
 	text-align: right;
 	display: block;
@@ -482,6 +482,7 @@ p {
 	margin: auto;
 	overflow: hidden;
 }
+
  h2 {
  	font-size: 6em;
  	padding-top: 180px;
@@ -574,6 +575,7 @@ h3 {
 /*	background-color: white;*/
 /*}*/
 
+}
 
 
 
