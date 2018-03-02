@@ -34,10 +34,7 @@ function showMe(){
 }
 
 
-function dontContact(){
-	contactme.className = 'dontContact';
-	contactme.style.display = 'none';
-}
+
 
 // nav buttons
 
@@ -58,7 +55,6 @@ var homeButt = document.getElementById('homeButt')
 ,	homeme = document.getElementById('homeme');
 
 homeButt.addEventListener('click',function(){
-	dontContact();
 	showMe();
 	// noShowPortfolio();
 	homeme.className = 'showing';
@@ -85,7 +81,6 @@ var infoButt = document.getElementById('infoButt')
 
 
 infoButt.addEventListener('click',function(){
-	dontContact();
 	showMe();
 	// noShowPortfolio();
 	infome.className = 'showing';
@@ -112,7 +107,6 @@ var skillsButt = document.getElementById('skillsButt')
 ,	skillsme = document.getElementById('skillsme');
 
 skillsButt.addEventListener('click',function(){
-	dontContact();
 	showMe();
 	// noShowPortfolio();
 	skillsme.className = 'showing';
@@ -130,26 +124,6 @@ if (hideMe == false){
 	}
 })
 
-////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////
-// contact button & animation
-
-
-var contactButt = document.getElementById('contactButt')
-,	contactme = document.getElementById('contactme')
-,	body = document.getElementById('home-body');
-
-contactButt.addEventListener('click', function(){
-	contactme.style.display = 'block';
-	body.style.backgroundColor = '#111111';
-})
-
-var close = document.getElementById('close');
-
-close.addEventListener('click', function(){
-	contactme.style.display = 'none';
-	body.style.backgroundColor = '#F9F9F9';
-});
 
 
 
