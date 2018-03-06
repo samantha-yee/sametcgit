@@ -7,6 +7,10 @@
   top: -30px;
 }
 
+li {
+	display: block;
+}
+
 #port-nav {
 	width: 15vw;
 	height: 30vh;
@@ -16,13 +20,22 @@
 	text-align: right;
 }
 
-
+h2 {
+	margin: 0;
+	right: 0;
+	width: 100%;
+}
 #port-scroll {
 	position: absolute;
 	width: 80vw;
 
 	right: 0;
 	top: 10%;
+
+}
+
+.port-butts {
+	width: 5vw;
 
 }
 

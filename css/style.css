@@ -13,7 +13,7 @@
 	right: 0;
  	stroke-dasharray: 1000;
   	stroke-dashoffset: 1000;
-  	animation: dash 3s linear forwards;
+  	animation: dash 20s linear forwards;
 }
 
 @keyframes dash {
@@ -406,7 +406,6 @@ p {
 .contact {
 	font-size: 18pt;
 	margin: 0;
-	padding: 0 0 0 2vw;
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 2px rgba(0,0,0,.2);
