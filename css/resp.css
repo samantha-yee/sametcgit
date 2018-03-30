@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1000px) {
+
+.navlink{
+	width: 12vw;
+}
+
+
 @media only screen and (max-width: 450px) {
 
 	#home-body {
@@ -123,6 +130,7 @@
 		width: 160%;
 		z-index: -3500;
 	}
+
 
 
 
