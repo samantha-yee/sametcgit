@@ -15,7 +15,9 @@ overflow: hidden;
 
 /*	background-color: #FFB704;*/
 }
-
+#gritzLink {
+	color: #FFB704;
+}
 
 	#goBack {
 	color: white;
@@ -27,6 +29,11 @@ overflow: hidden;
 
 li {
 	display: block;
+}
+
+
+li:hover {
+	cursor: pointer;
 }
 
 #port-nav {
@@ -81,9 +88,10 @@ h2 {
 }
 
 .port-copy {
-	width: 70%;
+	width: 45%;
 	text-align: justify;
-	margin:10px 0 20px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	top: 0;
 	right:0;
 	bottom: 0;
@@ -428,7 +436,7 @@ p#bc_controls {
 	left: 0;
 	margin: auto;
 	margin-top: 10px;
-	padding-left: 8%;
+	padding-left: 17%;
 }
 
 /*#gritzCopy {

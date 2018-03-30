@@ -314,6 +314,10 @@ i:hover {
 	cursor: pointer;
 }
 
+li:hover {
+	cursor: pointer;
+}
+
 
 
 #short{
