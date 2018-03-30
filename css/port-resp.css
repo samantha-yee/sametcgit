@@ -8,11 +8,65 @@
 		top: 0;
 		left: 0;
 		margin: 0;
+		background-color: white;
+		background-image: none;
 	
 	}
 
+#port-scroll {
+	width: 100%;
+	top: 0;
+	box-shadow: none;
+	height: 100vh;
+}
+
+.gritz,
+.ladies {
+	display: block;
+	width: 100%;
+}
+
+
+.port-copy {
+	width: 100%;
+	text-align: justify;
+}
+
+.port-butts {
+	width: 15vw;
+	font-size: 10pt;
+}
+
 .portDivs {
 	width: 100%;
+	height: auto;
+	margin-top: 25px;
+	padding-top: 50px;
+	margin-bottom: 0;
+	position:absolute;
+	padding: 25px;
+	box-sizing: border-box;
+	box-shadow: none;
+}
+
+.pagenav {
+	left: 0;
+}
+
+#port-header {
+	display: none;
+}
+
+footer {
+	display: block;
+	bottom: 100px;
+}
+
+.socialnav {
+	text-align: center;
+	color: black;
+	display: none;
+
 }
 
 .port-title {
@@ -31,6 +85,9 @@
 		font-variant: small-caps;
 		position: fixed;
 	}
+.used {
+	text-align: center;
+}
 
 
 

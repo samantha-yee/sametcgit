@@ -21,16 +21,16 @@ overflow: hidden;
 	color: white;
 }
 
-.nav-up {
+/*.nav-up {
   top: -30px;
-}
+}*/
 
 li {
 	display: block;
 }
 
 #port-nav {
-	width: 14vw;
+	width: 20vw;
 	height: 30vh;
 	position: fixed;
 	top: 20%;
@@ -76,7 +76,8 @@ h2 {
 }
 
 .port-title {
-	text-align: left;
+	font-variant: small-caps;
+	font-size: 2em;
 }
 
 .port-copy {
@@ -89,6 +90,7 @@ h2 {
 	left:0;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-size: .9em;
 
 }
 .project-title {
@@ -108,12 +110,13 @@ h2 {
 }
 #port-scroll {
 	position: absolute;
-	width: 85vw;
+	width: 75%;
 	right: 0;
+	left: 0;
+	margin: auto;
 	top: 0;
 	overflow-y:scroll;
 	height: 100vh;
-
 }
 
 
@@ -142,9 +145,13 @@ footer {
 .port-butts {
 	z-index: 1000;
 	display: inline-block;
-	color: black;
+	color: white;
+	font-size: 1em;
 	text-align: center;
-	width: 5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+/*	width: 6vw;*/
+
 }
 
 /*.port-butts:hover {
@@ -153,18 +160,22 @@ footer {
 }*/
 
  #edButt:before {
-	width: 13%;
+	width: 7%;
  }
 
 #brandButt:before {
-	width: 14.5%;
+	width: 7.5%;
 }
 
  #illButt:before {
-	width: 18%;
+	width: 9%;
  }
  #filmButt:before {
-	width: 19%;
+	width: 10.5%;
+ }
+
+ #printButt:before {
+	width: 4%;
  }
 
 
@@ -172,7 +183,8 @@ footer {
  #brandButt:before,
  #edButt:before,
  #illButt:before,
- #filmButt:before {
+ #filmButt:before,
+ #printButt:before {
   content: "";
   position: absolute;
   height: 1px;
@@ -209,6 +221,12 @@ footer {
   transform: scaleX(1);
 }
 
+#printButt:hover:before,
+#printButt:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 /*#back:hover:before,
 #back:focus:before {
   visibility: visible;
@@ -221,11 +239,11 @@ footer {
 	height: auto;
 	margin-top: 100px;
 	padding-top: 50px;
+	margin-bottom: 100px;
 	position:absolute;
 	background-color: white;
 	padding: 25px;
 	box-sizing: border-box;
-	border-radius: 0 20px 20px 20px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.4);
 	right: 2%;
 }
@@ -251,15 +269,6 @@ footer {
 
 }
 
-/*.side-active, .sides:hover {
-	color: white;
-}
-
-.sides:hover {
-	color: white;
-	transition: ease-in-out .5s;
-
-}*/
 
 
 .logo {
@@ -299,12 +308,16 @@ footer {
 /*
 -------*/
 
-
+footer {
+	display: none;	bottom: 100px;
+	width: 100%;
+	color: yellow;
+}
 
 p#bc_controls {
 	width: 60%;
-	top: 34vh;
-	margin-left: 150px;
+/*	top: 34vh;
+	margin-left: 150px;*/
   	text-align:left;
   	position: fixed;
 	font-size: 1em;
@@ -317,14 +330,59 @@ p#bc_controls {
 	margin: 2px;
 }
 
+ #front:before {
+	width: 4%;
+ }
+
+ #back:before {
+	width: 3.5%;
+ }
+
+
+ #front:before,
+ #back:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  background: black;
+  visibility: hidden;
+  border-radius: 30px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+
+#front:hover:before,
+#front:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#back:hover:before,
+#back:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.side-active, .sides:hover {
+	color: #FFB704;
+}
+
+.sides:hover {
+	color: #FFB704;
+	transition: ease-in-out .5s;
+
+}
+
+
 #bc,
 #bc2,
 #bc3,
 #bc4 {
 	height: 50vh;
-	width: 50%;
+
 	position: relative;
-	margin: 5% 0 10% 35%;
+	margin: 5% 63% 10% 35%;
 
 }
 
@@ -386,4 +444,9 @@ p#bc_controls {
 
 .used {
 	text-align: right;
+}
+
+iframe {
+	height: 80vh;
+	width: 100%;
 }

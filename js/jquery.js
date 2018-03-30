@@ -14,8 +14,8 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
 
     var newImage = $(this).index();
 
-    $("#bc_controls span").removeClass("selected")
-    $(this).addClass("selected");
+    $("#bc_controls span").removeClass("side-active")
+    $(this).addClass("side-active");
 
     $("#bc img").eq(newImage).addClass("opaque");
     $("#bc2 img").eq(newImage).addClass("opaque");

@@ -5,6 +5,7 @@ var up = document.getElementById('up')
 ,	brandButt = document.getElementById('brandButt')
 ,	illButt = document.getElementById('illButt')
 ,	filmButt = document.getElementById('filmButt')
+,	printButt = document.getElementById('printButt')
 
 ,	portTypeTitle = document.getElementById('port-type-title')
 
@@ -13,6 +14,7 @@ var up = document.getElementById('up')
 ,	illustration = document.getElementById('illustration')
 ,	branding = document.getElementById('branding')
 ,	video = document.getElementById('video')
+,	print = document.getElementById('print')
 ;
 
 edButt.addEventListener('click', function(){
@@ -20,6 +22,7 @@ edButt.addEventListener('click', function(){
 	branding.style.display = 'none';
 	illustration.style.display = 'none';
 	video.style.display = 'none';
+	print.style.display = 'none';
 })
 
 brandButt.addEventListener('click', function(){
@@ -27,6 +30,7 @@ brandButt.addEventListener('click', function(){
 	editorial.style.display = 'none';
 	illustration.style.display = 'none';
 	video.style.display = 'none';
+	print.style.display = 'none';
 
 })
 
@@ -35,6 +39,7 @@ illButt.addEventListener('click', function(){
 	branding.style.display = 'none';
 	editorial.style.display = 'none';
 	video.style.display = 'none';
+	print.style.display = 'none';
 })
 
 filmButt.addEventListener('click', function(){
@@ -42,6 +47,15 @@ filmButt.addEventListener('click', function(){
 	branding.style.display = 'none';
 	editorial.style.display = 'none';
 	video.style.display = 'block';
+	print.style.display = 'none';
+})
+
+printButt.addEventListener('click', function(){
+	illustration.style.display = 'none';
+	branding.style.display = 'none';
+	editorial.style.display = 'none';
+	print.style.display = 'block'
+	video.style.display = 'none';
 })
 
 var portHeader = document.getElementById("port-header");
